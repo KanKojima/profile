@@ -1,0 +1,712 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body{
+    position: absolute;
+    width: 100%;
+    height: 9050px;
+    // background-color: lightgray;
+    margin: 0;
+    font-family : ヒラギノ角ゴ StdN;
+    color : rgb(0, 0, 0);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   
+}
+// headerここから
+.header{
+    width: 100%;
+    height: 500px;
+    // background-color: pink;
+    margin-bottom: 60px;
+}
+.title_name{
+    margin-top: 0;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding-top: 200px;
+    padding-left: 10.2%;
+    font-size : 24px;
+}
+.title_dis{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 200px;
+    box-sizing: border-box;
+    padding-left: 10.2%;
+    font-size : 18px;
+}
+// headerここまで
+// 各divタイトルここから
+.title{
+    margin-top: 0;
+    margin-bottom: 36px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-left: 10.2%;
+    font-size : 24px;
+}
+.title_design{
+    margin-top: 0;
+    margin-bottom: 36px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    padding-left: 10.2%;
+    font-size : 24px;
+}
+
+// 各divタイトルここまで
+
+// untillここから
+// untill>title>disctextここから
+.career_title{
+    font-size: 18px;
+    color : rgb(255, 255, 255);
+
+}
+.career_disc{
+    margin-top: 20px;
+    font-size: 14px;
+    color : rgb(255, 255, 255);
+}
+// untill>title>disctextここまで
+
+.untill{
+    width: 100%;
+    height: 2220px;
+    // background-color: gray;
+    margin-bottom: 60px;
+}
+//bird_eyeここから
+.bird_eye{
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    // background-color: yellow;
+    margin-bottom: 60px;
+}
+.bird_eye_1{
+    position: relative;
+    top: 0;
+    left: 27.5%;
+    width: 72.5%;
+    height: 450px;
+    background : rgba(26, 25, 23, 1);
+    margin-left: 0;
+    box-sizing: border-box;
+
+}
+
+.bird_eye_title{
+    margin: 0;
+    box-sizing: border-box;
+}
+.bird_eye_text{
+    position: relative;
+    top: 160px;
+    left: 45%;
+    width: 46%;
+    height: 191px;
+    box-sizing: border-box;
+}
+.bird_eye_photo{
+    position: relative;
+    top: -410px;
+    left: 0;
+    width: 50.8%;
+    height: 370px;
+    background: url('watch_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+//bird_eyeここまで
+//toughここから
+.tough{
+    position: relative;
+    top : 510px;
+    left: 0;
+    width: 100%;
+    height: 450px;
+    // background-color: yellow;
+    margin-bottom: 60px;
+}
+.tough_1{
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 72.5%;
+    height: 450px;
+    background : rgba(26, 25, 23, 1);
+    margin-left: 0;
+    box-sizing: border-box;
+}
+
+.tough_title{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.tough_text{
+    position: relative;
+    top: 140px;
+    left: 0%;
+    padding-left: 14%;
+    width: 46%;
+    height: 191px;
+}
+.tough_photo{
+    position: relative;
+    top: -410px;
+    left: 49.3%;
+    width: 50.8%;
+    height: 370px;
+    background: url('cat_2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+//toughここまで
+//makeここから
+.make{
+    position: relative;
+    top : 510px;
+    left: 0;
+    width: 100%;
+    height: 450px;
+    // background-color: yellow;
+    margin-bottom: 60px;
+}
+.make_1{
+    position: relative;
+    top: 0;
+    left: 27.5%;
+    width: 72.5%;
+    height: 450px;
+    background : rgba(26, 25, 23, 1);
+    margin-left: 0;
+    box-sizing: border-box;
+}
+
+.make_title{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.make_text{
+    position: relative;
+    top: 160px;
+    left: 45%; 
+    width: 46%;
+    height: 191px;
+    box-sizing: border-box;
+
+}
+.make_photo{
+    position: relative;
+    top: -410px;
+    left: 0;
+    width: 50.8%;
+    height: 370px;
+    background: url('train_3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+//makeここまで
+//confidentここから
+.confident{
+    position: relative;
+    top : 510px;
+    left: 0;
+    width: 100%;
+    height: 450px;
+    // background-color: yellow;
+    margin-bottom: 120px;
+}
+.confident_1{
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 72.5%;
+    height: 450px;
+    background : rgba(26, 25, 23, 1);
+    margin-left: 0;
+    box-sizing: border-box;
+}
+
+.confident_title{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.confident_text{
+    position: relative;
+    top: 140px;
+    left: 0%;
+    padding-left: 14%;
+    width: 46%;
+    height: 191px;
+}
+.confident_photo{
+    position: relative;
+    top: -410px;
+    left: 49.3%;
+    width: 50.8%;
+    height: 370px;
+    background: url('smile_4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+//confidentここまで
+// untillここまで
+
+
+// futureここから
+.future{
+    width: 100%;
+    height: 2220px;
+    // background-color: gray;
+    margin-bottom: 60px;
+}
+//interestedここから
+.interested{
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 450px;
+    // background-color: yellow;
+    margin-bottom: 60px;
+}
+.interested_1{
+    position: relative;
+    top: 0;
+    left: 27.5%;
+    width: 72.5%;
+    height: 450px;
+    background : rgba(26, 25, 23, 1);
+    margin-left: 0;
+    box-sizing: border-box;
+
+}
+
+.interested_title{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.interested_text{
+    position: relative;
+    top: 160px;
+    left: 45%;
+    width: 46%;
+    height: 191px;
+    box-sizing: border-box;
+
+}
+.interested_photo{
+    position: relative;
+    top: -410px;
+    left: 0;
+    width: 50.8%;
+    height: 370px;
+    background: url('hedge_5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+//interestedここまで
+//whyここから
+
+
+.why{
+    position: relative;
+    top : 0px;
+    left: 0;
+    width: 100%;
+    height: 450px;
+    // background-color: yellow;
+    margin-bottom: 60px;
+}
+.why_1{
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 72.5%;
+    height: 450px;
+    background : rgba(26, 25, 23, 1);
+    margin-left: 0;
+    box-sizing: border-box;
+}
+
+.why_title{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.why_text{
+    position: relative;
+    top: 140px;
+    left: 0%;
+    padding-left: 14%;
+    width: 46%;
+    height: 191px;
+
+}
+.why_photo{
+    position: relative;
+    top: -410px;
+    left: 49.3%;
+    width: 50.8%;
+    height: 370px;
+    background: url('sea_6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+//whyここまで
+//whatここから
+.what{
+    position: relative;
+    top : 0px;
+    left: 0;
+    width: 100%;
+    height: 450px;
+    // background-color: yellow;
+    margin-bottom: 60px;
+}
+.what_1{
+    position: relative;
+    top: 0;
+    left: 27.5%;
+    width: 72.5%;
+    height: 450px;
+    background : rgba(26, 25, 23, 1);
+    margin-left: 0;
+    box-sizing: border-box;
+}
+
+.what_title{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.what_text{
+    position: relative;
+    top: 160px;
+    left: 45%;
+    width: 46%;
+    height: 191px;
+    box-sizing: border-box;
+
+}
+.what_photo{
+    position: relative;
+    top: -410px;
+    left: 0;
+    width: 50.8%;
+    height: 370px;
+    background: url('future_7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+//whatここまで
+//what_toここから
+.what_to{
+    position: relative;
+    top : 0px;
+    left: 0;
+    width: 100%;
+    height: 450px;
+    // background-color: yellow;
+    margin-bottom: 120px;
+}
+.what_to_1{
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 72.5%;
+    height: 450px;
+    background : rgba(26, 25, 23, 1);
+    margin-left: 0;
+    box-sizing: border-box;
+
+}
+
+.what_to_title{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.what_to_text{
+    position: relative;
+    top: 140px;
+    left: 0%;
+    padding-left: 14%;
+    width: 46%;
+    height: 191px;
+
+}
+.what_to_photo{
+    position: relative;
+    top: -410px;
+    left: 49.3%;
+    width: 50.8%;
+    height: 370px;
+    background: url('bike_8.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+//what_toここまで
+// futureここまで
+
+
+// poriforioここから
+
+.kojima_9_icon{
+    width: 100%;
+    height: 308px;
+}
+
+// .kojima_9_icon:hover{
+//   opacity: 0.5;
+// }
+.kojima_10_icon{
+    display: none;
+    width: 100%;
+    height: 308px;
+}
+.port_forio{
+    width: 100%;
+    height: 1779px;
+    margin-bottom: 60px;
+    box-sizing: border-box;
+}
+.port_forio_area{
+    width: 100%;
+    height: 1540px;
+}
+.port_forio_1{
+    width: 50%;
+    height: 308px;
+    display: inline-block;
+}
+    
+
+.port_forio_2{
+    margin-left: -0.4%;
+    width: 24.9%;
+    height: 308px;
+    display: inline-block;
+}
+
+.port_forio_3{
+    width: 24.9%;
+    margin-left: -0.4%;
+    height: 308px;
+    display: inline-block;
+}
+
+.port_forio_4{
+    margin-top: -6px;
+    margin-left: -0.5%;
+    width: 25%;
+    height: 308px;
+    display: inline-block;
+}
+.port_forio_5{
+    margin-top: -6px;
+    margin-left: -0.4%;
+    width: 50.3%;
+    height: 308px;
+    display: inline-block;
+
+}
+.port_forio_6{
+    margin-top: -6px;
+    margin-left: -0.5%;
+    width: 25.1%;
+    height: 308px;
+    display: inline-block;
+}
+
+.port_forio_7{
+    margin-top: -6px;
+    margin-left: -0.5%;
+    width: 75.4%;
+    height: 308px;
+    background-color: rgba(26, 25, 23, 1);
+    display: inline-block;
+}
+.port_forio_8{
+    margin-top: -6px;
+    margin-left: -0.5%;
+    width: 25%;
+    height: 308px;
+    background-color: rgba(0, 0, 0, 1);
+    display: inline-block;
+}
+.port_forio_9{
+    margin-top: -6px;
+    margin-left: -0.5%;
+    width: 25%;
+    height: 308px;
+    background-color: rgba(0, 0, 0, 1);
+    display: inline-block;
+}
+.port_forio_10{
+    margin-top: -6px;
+    margin-left: -0.5%;
+    width: 25%;
+    height: 308px;
+    background-color:  rgba(26, 25, 23, 1);
+    display: inline-block;
+}
+.port_forio_11{
+    margin-top: -6px;
+    margin-left: -0.5%;
+    width: 50.5%;
+    height: 308px;
+    background-color: rgba(255, 255, 255, 1);
+    display: inline-block;
+}
+.port_forio_12{
+    margin-top: -6px;
+    margin-left: -0.5%;
+    width: 49.7%;
+    height: 308px;
+    background-color: rgba(26, 25, 23, 1);
+    display: inline-block;
+}
+.port_forio_13{
+    margin-top: -6px;
+    margin-left: -0.5%;
+    width: 25%;
+    height: 308px;
+    background-color: rgba(0, 0, 0, 1);
+    display: inline-block;
+}
+
+.port_forio_14{
+    margin-top: -6px;
+    margin-left: -0.5%;
+    width: 25.8%;
+    height: 308px;
+    background-color: rgba(26, 25, 23, 1);
+    display: inline-block;
+}
+// poriforioここまで
+// designここから
+.design{
+    position: absolute;
+    width: 100%;
+    height: 1746px;
+    // background-color: skyblue;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.is_title{
+    position: relative;
+    top: 231px;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+.is_title_rooted{
+    position: relative;
+    top: 231px;
+    text-align: center;
+    font-size: 24px;
+    color:  rgb(64, 64, 64);
+}
+.is_1{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 80.3%;
+    height: 463px;
+    background-color: yellow;
+    margin: 0 auto;
+    background: url('picaso_20.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 0px left 0;
+}
+
+.is_2{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 80.3%;
+    height: 463px;
+    background-color: yellow;
+    margin: 0 auto;
+    background: url('jr_21.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 0px left 0;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.is_3{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 80.3%;
+    height: 463px;
+    background-color: yellow;
+    margin: 0 auto;
+    background: url('wire_22.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 0px left 0;
+}
+
+// designここまで
+// footerここから
+.footer{
+    position: relative;
+    top: 1806px;
+    left: 0;
+    width: 100%;
+    height: 316px;
+   
+}
+.footer_title{
+    margin-top: 0;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-left: 10.2%;
+    font-size : 24px;
+}
+.url{
+    color: rgb(0, 0, 0);;
+}
+.link{
+    margin-bottom: 0;
+    box-sizing: border-box;
+    margin-left: 10.2%;
+    font-size : 12px;
+}
+
+.end{
+    
+    margin-left: 10.2%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size : 12px;
+}
+
+// footerここまで
