@@ -17,7 +17,7 @@
 body{
     position: absolute;
     width: 100%;
-    height: 9050px;
+    // height: 9050px;
     // background-color: lightgray;
     margin: 0;
     font-family : ヒラギノ角ゴ StdN;
@@ -324,6 +324,7 @@ body{
     background:image-url('hedge_5.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 //interestedここまで
 //whyここから
@@ -372,6 +373,8 @@ body{
     background:image-url('sea_6.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+
 }
 
 //whyここまで
@@ -419,6 +422,8 @@ body{
     background:image-url('future_7.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+
 }
 
 //whatここまで
@@ -474,138 +479,191 @@ body{
 
 // poriforioここから
 
-.kojima_9_icon{
-    width: 100%;
-    height: 308px;
-}
 
 // .kojima_9_icon:hover{
 //   opacity: 0.5;
 // }
-.kojima_10_icon{
-    display: none;
-    width: 100%;
-    height: 308px;
-}
+
 .port_forio{
     width: 100%;
     height: 1779px;
     margin-bottom: 60px;
     box-sizing: border-box;
+    // background-color: red;
 }
 .port_forio_area{
+    position: absolute;
     width: 100%;
     height: 1540px;
 }
+
 .port_forio_1{
-    width: 50%;
+    width: 33%;
     height: 308px;
     display: inline-block;
+    background-color : rgba(26, 25, 23, 1);
+    z-index : 90;
 }
-    
-
-.port_forio_2{
-    margin-left: -0.4%;
-    width: 24.9%;
+.port_forio_title{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding-top: 154px;
+    font-size: 14px;
+}
+.port_forio_link{
+    text-decoration: none;
+}
+// area1ここから
+.port_forio_area_1{
+    width: 100%;
     height: 308px;
-    display: inline-block;
+    background-color: pink;
+    text-align: center;
 }
-
-.port_forio_3{
-    width: 24.9%;
-    margin-left: -0.4%;
-    height: 308px;
-    display: inline-block;
-}
-
-.port_forio_4{
-    margin-top: -6px;
-    margin-left: -0.5%;
-    width: 25%;
-    height: 308px;
-    display: inline-block;
-}
-.port_forio_5{
-    margin-top: -6px;
-    margin-left: -0.4%;
-    width: 50.3%;
-    height: 308px;
-    display: inline-block;
-
-}
-.port_forio_6{
-    margin-top: -6px;
-    margin-left: -0.5%;
-    width: 25.1%;
-    height: 308px;
-    display: inline-block;
-}
-
-.port_forio_7{
-    margin-top: -6px;
-    margin-left: -0.5%;
-    width: 75.4%;
-    height: 308px;
-    background-color: rgba(26, 25, 23, 1);
-    display: inline-block;
-}
-.port_forio_8{
-    margin-top: -6px;
-    margin-left: -0.5%;
-    width: 25%;
-    height: 308px;
-    background-color: rgba(0, 0, 0, 1);
-    display: inline-block;
-}
-.port_forio_9{
-    margin-top: -6px;
-    margin-left: -0.5%;
-    width: 25%;
-    height: 308px;
-    background-color: rgba(0, 0, 0, 1);
-    display: inline-block;
-}
-.port_forio_10{
-    margin-top: -6px;
-    margin-left: -0.5%;
-    width: 25%;
+.port_forio_area_1_1{
+    width: 33.3%;
     height: 308px;
     background-color:  rgba(26, 25, 23, 1);
     display: inline-block;
+    margin-left: -0.3%;
+
 }
-.port_forio_11{
-    margin-top: -6px;
-    margin-left: -0.5%;
-    width: 50.5%;
+.port_forio_area_1_2{
+    width: 33.5%;
     height: 308px;
-    background-color: rgba(255, 255, 255, 1);
+    background-color:  rgba(0, 0, 0, 1);
     display: inline-block;
+    margin-left: -0.3%;
 }
-.port_forio_12{
-    margin-top: -6px;
-    margin-left: -0.5%;
-    width: 49.7%;
+.port_forio_area_1_3{
+    width: 33.4%;
     height: 308px;
-    background-color: rgba(26, 25, 23, 1);
+    background-color:  rgba(26, 25, 23, 1);
     display: inline-block;
+    margin-left: -0.3%;
 }
-.port_forio_13{
-    margin-top: -6px;
-    margin-left: -0.5%;
-    width: 25%;
+// area1ここまで
+// area２ここから
+.port_forio_area_2{
+    width: 100%;
     height: 308px;
-    background-color: rgba(0, 0, 0, 1);
+    // background-color: green;
+}
+.port_forio_area_2_1{
+    width: 33.4%;
+    height: 308px;
+    background-color:  rgba(0, 0, 0, 1);
     display: inline-block;
+    margin-left: -0.3%;
+
+}
+.port_forio_area_2_2{
+    width: 33.5%;
+    height: 308px;
+    background-color:  rgba(26, 25, 23, 1);
+    display: inline-block;
+    margin-left: -0.3%;
+}
+.port_forio_area_2_3{
+    width: 33.3%;
+    height: 308px;
+    background-color:  rgba(0, 0, 0, 1);
+    display: inline-block;
+    margin-left: -0.3%;
+}
+// area２ここまで
+// area3ここから
+.port_forio_area_3{
+    width: 100%;
+    height: 308px;
+    // background-color: blue;
+}
+.port_forio_area_3_1{
+    width: 33.4%;
+    height: 308px;
+    background-color:  rgba(26, 25, 23, 1);
+    display: inline-block;
+    margin-left: -0.3%;
+
+}
+.port_forio_area_3_2{
+    width: 33.5%;
+    height: 308px;
+    background-color:  rgba(0, 0, 0, 1);
+    display: inline-block;
+    margin-left: -0.3%;
+}
+.port_forio_area_3_3{
+    width: 33.3%;
+    height: 308px;
+    background-color:  rgba(26, 25, 23, 1);
+    display: inline-block;
+    margin-left: -0.3%;
+}
+// area3ここまで
+// area4ここから
+
+.port_forio_area_4{
+    width: 100%;
+    height: 308px;
+    // background-color: yellow;
+}
+.port_forio_area_4_1{
+    width: 33.4%;
+    height: 308px;
+    background-color:  rgba(0, 0, 0, 1);
+    display: inline-block;
+    margin-left: -0.3%;
+
+}
+.port_forio_area_4_2{
+    width: 33.5%;
+    height: 308px;
+    background-color:  rgba(26, 25, 23, 1);
+    display: inline-block;
+    margin-left: -0.3%;
+}
+.port_forio_area_4_3{
+    width: 33.3%;
+    height: 308px;
+    background-color:  rgba(0, 0, 0, 1);
+    display: inline-block;
+    margin-left: -0.3%;
 }
 
-.port_forio_14{
-    margin-top: -6px;
-    margin-left: -0.5%;
-    width: 25.8%;
+// area4ここまで
+// area5ここから
+.port_forio_area_5{
+    width: 100%;
     height: 308px;
-    background-color: rgba(26, 25, 23, 1);
-    display: inline-block;
+    // background-color: lightgreen;
 }
+.port_forio_area_5_1{
+    width: 33.4%;
+    height: 308px;
+    background-color:  rgba(26, 25, 23, 1);
+    display: inline-block;
+    margin-left: -0.3%;
+
+}
+.port_forio_area_5_2{
+    width: 33.5%;
+    height: 308px;
+    background-color:  rgba(0, 0, 0, 1);
+    display: inline-block;
+    margin-left: -0.3%;
+}
+.port_forio_area_5_3{
+    width: 33.3%;
+    height: 308px;
+    background-color:  rgba(26, 25, 23, 1);
+    display: inline-block;
+    margin-left: -0.3%;
+}
+
+// area5ここまで
 // poriforioここまで
 // designここから
 .design{
@@ -631,6 +689,9 @@ body{
     font-size: 24px;
     color:  rgb(64, 64, 64);
 }
+.design_link{
+    text-decoration: none;
+}
 .is_1{
     position: relative;
     top: 0;
@@ -642,8 +703,19 @@ body{
     background:image-url('picaso_20.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     background-position: top 0px left 0;
+    transition: all 1.0s;
+
 }
+// .is_1:hover{
+//     background:image-url('picasocolor_23.png');
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     background-position: center;
+//     background-position: top 0px left 0;
+//     // transition: 1.0s ;
+// }
 
 .is_2{
     position: relative;
@@ -656,10 +728,27 @@ body{
     background:image-url('jr_21.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top 0px left 0;
+    background-position: right 35% bottom 45%;
     margin-top: 60px;
     margin-bottom: 60px;
+    transition: all 1.0s;
+
 }
+// .is_2:hover{
+//     background:image-url('jrcolor_24.png');
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     background-position: right 35% bottom 45%;
+//     background-position: top 0px left 0;
+//     transition: 1.0s ;
+// }
+// .picaso_20{
+//     position: relative;
+//     top: -56px;
+//     left: 0;
+//     width: 100%;
+//     height: 463px;
+// }
 .is_3{
     position: relative;
     top: 0;
@@ -672,7 +761,16 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top 0px left 0;
+    transition: all 1.0s;
+
 }
+// .is_3:hover{
+//     background:image-url('wirecolor_25.png');
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     background-position: top 0px left 0;
+//     transition: 1.0s ;
+// }
 
 // designここまで
 // footerここから
