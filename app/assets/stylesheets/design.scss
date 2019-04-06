@@ -100,6 +100,10 @@
     left: 10%;
     // margin-bottom: 134px;
 }
+.pink:hover{
+    // opacity: 0.5;
+    // background:image-url('kojimacolor_19.png');
+}
 
 .profile{
     position: relative;
@@ -181,7 +185,7 @@
 //リンクタイトル
 .site_link{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 3, 1);
 }
 
 

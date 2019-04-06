@@ -14,14 +14,16 @@
  *= require_self
  */
 
+
 body{
     position: absolute;
     width: 100%;
     // height: 9050px;
-    // background-color: lightgray;
+    background-color: rgba(255,255,250,1);
     margin: 0;
     font-family : ヒラギノ角ゴ StdN;
-    color : rgb(0, 0, 0);
+    color : rgba(0, 0, 3,1);
+    // color: red;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
    
@@ -74,13 +76,13 @@ body{
 // untill>title>disctextここから
 .career_title{
     font-size: 18px;
-    color : rgb(255, 255, 255);
+    color : rgb(255, 255, 250);
 
 }
 .career_disc{
     margin-top: 20px;
     font-size: 14px;
-    color : rgb(255, 255, 255);
+    color : rgb(255, 255, 250);
 }
 // untill>title>disctextここまで
 
@@ -104,7 +106,7 @@ body{
     left: 27.5%;
     width: 72.5%;
     height: 450px;
-    background : rgba(26, 25, 23, 1);
+    background: rgba(0, 0, 3, 1);
     margin-left: 0;
     box-sizing: border-box;
 
@@ -150,7 +152,7 @@ body{
     left: 0%;
     width: 72.5%;
     height: 450px;
-    background : rgba(26, 25, 23, 1);
+    background: rgba(0, 0, 3, 1);
     margin-left: 0;
     box-sizing: border-box;
 }
@@ -195,7 +197,7 @@ body{
     left: 27.5%;
     width: 72.5%;
     height: 450px;
-    background : rgba(26, 25, 23, 1);
+    background : rgba(0, 0, 3, 1);
     margin-left: 0;
     box-sizing: border-box;
 }
@@ -241,7 +243,7 @@ body{
     left: 0%;
     width: 72.5%;
     height: 450px;
-    background : rgba(26, 25, 23, 1);
+    background : rgba(0, 0, 3, 1);
     margin-left: 0;
     box-sizing: border-box;
 }
@@ -295,7 +297,7 @@ body{
     left: 27.5%;
     width: 72.5%;
     height: 450px;
-    background : rgba(26, 25, 23, 1);
+    background : rgba(0, 0, 3, 1);
     margin-left: 0;
     box-sizing: border-box;
 
@@ -345,7 +347,7 @@ body{
     left: 0%;
     width: 72.5%;
     height: 450px;
-    background : rgba(26, 25, 23, 1);
+    background : rgba(0, 0, 3, 1);
     margin-left: 0;
     box-sizing: border-box;
 }
@@ -394,7 +396,7 @@ body{
     left: 27.5%;
     width: 72.5%;
     height: 450px;
-    background : rgba(26, 25, 23, 1);
+    background : rgba(0, 0, 3, 1);
     margin-left: 0;
     box-sizing: border-box;
 }
@@ -443,7 +445,7 @@ body{
     left: 0%;
     width: 72.5%;
     height: 450px;
-    background : rgba(26, 25, 23, 1);
+    background : rgba(0, 0, 3, 1);
     margin-left: 0;
     box-sizing: border-box;
 
@@ -492,26 +494,33 @@ body{
     // background-color: red;
 }
 .port_forio_area{
-    position: absolute;
+    // position: absolute;
     width: 100%;
     height: 1540px;
 }
 
-.port_forio_1{
-    width: 33%;
-    height: 308px;
-    display: inline-block;
-    background-color : rgba(26, 25, 23, 1);
-    z-index : 90;
-}
+// .port_forio_1{
+//     width: 33%;
+//     height: 308px;
+//     display: inline-block;
+//     background-color : rgba(26, 25, 23, 1);
+//     z-index : 90;
+//     transition: 1.3s;
+// }
 .port_forio_title{
     margin-top: 0;
     margin-bottom: 0;
-    color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 250);
     text-align: center;
     padding-top: 154px;
     font-size: 14px;
+    box-sizing: border-box;
 }
+// .port_forio_title_2{
+//     display: none;
+//     color: rgb(0,0,0);
+// }
+
 .port_forio_link{
     text-decoration: none;
 }
@@ -528,14 +537,23 @@ body{
     background-color:  rgba(26, 25, 23, 1);
     display: inline-block;
     margin-left: -0.3%;
+}
+.port_forio_area_1_1:hover{
+    background-color:  rgba(0, 0, 3, 1);
 
+}
+.trigger{
+    transition: all  1.3s;
 }
 .port_forio_area_1_2{
     width: 33.4%;
     height: 308px;
-    background-color:  rgba(0, 0, 0, 1);
+    background-color:  rgba(0, 0, 3, 1);
     display: inline-block;
     margin-left: -0.5%;
+}
+.port_forio_area_1_2:hover{
+    background-color: rgba(26, 25, 23, 1);
 }
 .port_forio_area_1_3{
     width: 33.6%;
@@ -543,6 +561,9 @@ body{
     background-color:  rgba(26, 25, 23, 1);
     display: inline-block;
     margin-left: -0.4%;
+}
+.port_forio_area_1_3:hover{
+    background-color:  rgba(0, 0, 3, 1);
 }
 // area1ここまで
 // area２ここから
@@ -554,10 +575,12 @@ body{
 .port_forio_area_2_1{
     width: 33.2%;
     height: 308px;
-    background-color:  rgba(0, 0, 0, 1);
+    background-color:  rgba(0, 0, 3, 1);
     display: inline-block;
     margin-left: -0.1%;
-
+}
+.port_forio_area_2_1:hover{
+    background-color:  rgba(26, 25, 23, 1);
 }
 .port_forio_area_2_2{
     width: 33.3%;
@@ -566,13 +589,20 @@ body{
     display: inline-block;
     margin-left: -0.5%;
 }
+.port_forio_area_2_2:hover{
+    background-color:  rgba(0, 0, 3, 1);
+}
 .port_forio_area_2_3{
     width: 33.63%;
     height: 308px;
-    background-color:  rgba(0, 0, 0, 1);
+    background-color:  rgba(0, 0, 3, 1);
     display: inline-block;
     margin-left: -0.4%;
 }
+.port_forio_area_2_3:hover{
+    background-color:  rgba(26, 25, 23, 1);
+}
+
 // area２ここまで
 // area3ここから
 .port_forio_area_3{
@@ -586,21 +616,32 @@ body{
     background-color:  rgba(26, 25, 23, 1);
     display: inline-block;
     margin-left: -0.1%;
-
+    margin-bottom: 0px;
 }
+.port_forio_area_3_1:hover{
+    background-color:  rgba(255, 255, 250, 1);
+}
+
 .port_forio_area_3_2{
     width: 33.3%;
     height: 308px;
-    background-color:  rgba(0, 0, 0, 1);
+    background-color:  rgba(0, 0, 3, 1);
     display: inline-block;
     margin-left: -0.5%;
 }
+.port_forio_area_3_2:hover{
+    background-color:  rgba(255, 255, 250,1);
+}
+
 .port_forio_area_3_3{
     width: 33.63%;
     height: 308px;
     background-color:  rgba(26, 25, 23, 1);
     display: inline-block;
     margin-left: -0.4%;
+}
+.port_forio_area_3_3:hover{
+    background-color:  rgba(255, 255, 250,1);
 }
 // area3ここまで
 // area4ここから
@@ -613,10 +654,13 @@ body{
 .port_forio_area_4_1{
     width: 33.2%;
     height: 308px;
-    background-color:  rgba(0, 0, 0, 1);
+    background-color:  rgba(0, 0, 3, 1);
     display: inline-block;
     margin-left: -0.1%;
 
+}
+.port_forio_area_4_1:hover{
+    background-color:  rgba(255,255,250,1);
 }
 .port_forio_area_4_2{
     width: 33.3%;
@@ -625,12 +669,18 @@ body{
     display: inline-block;
     margin-left: -0.5%;
 }
+.port_forio_area_4_2:hover{
+    background-color:  rgba(255,255,250,1);
+}
 .port_forio_area_4_3{
     width: 33.63%;
     height: 308px;
-    background-color:  rgba(0, 0, 0, 1);
+    background-color:  rgba(0, 0, 3, 1);
     display: inline-block;
     margin-left: -0.4%;
+}
+.port_forio_area_4_3:hover{
+    background-color:  rgba(255,255,250,1);
 }
 
 // area4ここまで
@@ -646,14 +696,19 @@ body{
     background-color:  rgba(26, 25, 23, 1);
     display: inline-block;
     margin-left: -0.1%;
-
+}
+.port_forio_area_5_1:hover{
+    background-color:  rgba(255,255,250,1);
 }
 .port_forio_area_5_2{
     width: 33.3%;
     height: 308px;
-    background-color:  rgba(0, 0, 0, 1);
+    background-color:  rgba(0, 0, 3, 1);
     display: inline-block;
     margin-left: -0.5%;
+}
+.port_forio_area_5_2:hover{
+    background-color:  rgba(255,255,250,1);
 }
 .port_forio_area_5_3{
     width: 33.63%;
@@ -661,6 +716,9 @@ body{
     background-color:  rgba(26, 25, 23, 1);
     display: inline-block;
     margin-left: -0.4%;
+}
+.port_forio_area_5_3:hover{
+    background-color:  rgba(255,255,250,1);
 }
 
 // area5ここまで
@@ -680,14 +738,14 @@ body{
     top: 231px;
     text-align: center;
     font-size: 24px;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 250,1);
 }
 .is_title_rooted{
     position: relative;
     top: 231px;
     text-align: center;
     font-size: 24px;
-    color:  rgb(64, 64, 64);
+    color:  rgba(0, 0, 3,1);
 }
 .design_link{
     text-decoration: none;
@@ -708,14 +766,14 @@ body{
     transition: all 1.0s;
 
 }
-// .is_1:hover{
-//     background:image-url('picasocolor_23.png');
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     background-position: center;
-//     background-position: top 0px left 0;
-//     // transition: 1.0s ;
-// }
+.is_1:hover{
+    background:image-url('picasocolor_23.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position: top 0px left 0;
+    transition: 1.0s ;
+}
 
 .is_2{
     position: relative;
@@ -723,7 +781,7 @@ body{
     left: 0;
     width: 80.3%;
     height: 463px;
-    background-color: yellow;
+    // background-color: yellow;
     margin: 0 auto;
     background:image-url('jr_21.png');
     background-repeat: no-repeat;
@@ -734,14 +792,13 @@ body{
     transition: all 1.0s;
 
 }
-// .is_2:hover{
-//     background:image-url('jrcolor_24.png');
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     background-position: right 35% bottom 45%;
-//     background-position: top 0px left 0;
-//     transition: 1.0s ;
-// }
+.is_2:hover{
+    background:image-url('jrcolor_24.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 0px left 0;
+    transition: 1.0s ;
+}
 // .picaso_20{
 //     position: relative;
 //     top: -56px;
@@ -764,13 +821,13 @@ body{
     transition: all 1.0s;
 
 }
-// .is_3:hover{
-//     background:image-url('wirecolor_25.png');
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     background-position: top 0px left 0;
-//     transition: 1.0s ;
-// }
+.is_3:hover{
+    background:image-url('wirecolor_25.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 0px left 0;
+    transition: 1.0s ;
+}
 
 // designここまで
 // footerここから
@@ -791,7 +848,7 @@ body{
     font-size : 24px;
 }
 .url{
-    color: rgb(0, 0, 0);;
+    color: rgba(0, 0, 3,1);;
 }
 .link{
     margin-bottom: 0;
