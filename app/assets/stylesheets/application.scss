@@ -11,18 +11,22 @@
  * It is generally better to create a new file per style scope.
  *
  *= require_tree .
+ *= Custom bootstrap variables must be set or imported *before* bootstrap.
  *= require_self
  */
+@import "bootstrap";
 
 
 body{
-    position: absolute;
+    // position: absolute;
     width: 100%;
     // height: 9050px;
-    background-color: rgba(255,255,250,1);
+    background-color: rgba(250,252,255,1);
     margin: 0;
     font-family : ヒラギノ角ゴ StdN;
-    color : rgba(0, 0, 3,1);
+    // font-family: "851Gkktt";
+    color : rgba(0, 3, 0,1);
+    
     // color: red;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -42,6 +46,9 @@ body{
     padding-top: 200px;
     padding-left: 10.2%;
     font-size : 24px;
+    font-weight: bold;
+    z-index: 102;
+    
 }
 .title_dis{
     margin-top: 0;
@@ -50,9 +57,23 @@ body{
     box-sizing: border-box;
     padding-left: 10.2%;
     font-size : 18px;
+    font-weight: bold;
+    z-index: 102;
 }
-// headerここまで
-// 各divタイトルここから
+// パーティクルここから
+.container {
+    position:relative;
+    top: -500px;
+    left: 0px;
+    padding-left: 0;
+    padding-right: 0;
+    height: 100vh;
+}
+.background{
+    width: 100%;
+}
+
+// パーティクルここまで
 .title{
     margin-top: 0;
     margin-bottom: 36px;
@@ -60,6 +81,7 @@ body{
     padding-top: 50px;
     padding-left: 10.2%;
     font-size : 24px;
+    font-weight: bold;
 }
 .title_design{
     margin-top: 0;
@@ -68,6 +90,7 @@ body{
     margin-top: 50px;
     padding-left: 10.2%;
     font-size : 24px;
+    font-weight: bold;
 }
 
 // 各divタイトルここまで
@@ -76,13 +99,15 @@ body{
 // untill>title>disctextここから
 .career_title{
     font-size: 18px;
-    color : rgb(255, 255, 250);
+    color : rgb(250, 252, 255);
+    font-weight: bold;
 
 }
 .career_disc{
     margin-top: 20px;
     font-size: 14px;
-    color : rgb(255, 255, 250);
+    line-height: 1.5;
+    color : rgb(250, 252, 255);
 }
 // untill>title>disctextここまで
 
@@ -106,7 +131,8 @@ body{
     left: 27.5%;
     width: 72.5%;
     height: 450px;
-    background: rgba(0, 0, 3, 1);
+    background: rgba(0, 3, 0, 1);
+    
     margin-left: 0;
     box-sizing: border-box;
 
@@ -152,7 +178,7 @@ body{
     left: 0%;
     width: 72.5%;
     height: 450px;
-    background: rgba(0, 0, 3, 1);
+    background: rgba(0, 3, 0, 1);
     margin-left: 0;
     box-sizing: border-box;
 }
@@ -197,7 +223,7 @@ body{
     left: 27.5%;
     width: 72.5%;
     height: 450px;
-    background : rgba(0, 0, 3, 1);
+    background : rgba(0, 3, 0, 1);
     margin-left: 0;
     box-sizing: border-box;
 }
@@ -243,7 +269,7 @@ body{
     left: 0%;
     width: 72.5%;
     height: 450px;
-    background : rgba(0, 0, 3, 1);
+    background : rgba(0, 3, 0, 1);
     margin-left: 0;
     box-sizing: border-box;
 }
@@ -297,7 +323,7 @@ body{
     left: 27.5%;
     width: 72.5%;
     height: 450px;
-    background : rgba(0, 0, 3, 1);
+    background : rgba(0, 3, 0, 1);
     margin-left: 0;
     box-sizing: border-box;
 
@@ -347,7 +373,7 @@ body{
     left: 0%;
     width: 72.5%;
     height: 450px;
-    background : rgba(0, 0, 3, 1);
+    background : rgba(0, 3, 0, 1);
     margin-left: 0;
     box-sizing: border-box;
 }
@@ -396,7 +422,7 @@ body{
     left: 27.5%;
     width: 72.5%;
     height: 450px;
-    background : rgba(0, 0, 3, 1);
+    background : rgba(0, 3, 0, 1);
     margin-left: 0;
     box-sizing: border-box;
 }
@@ -445,7 +471,7 @@ body{
     left: 0%;
     width: 72.5%;
     height: 450px;
-    background : rgba(0, 0, 3, 1);
+    background : rgba(0, 3, 0, 1);
     margin-left: 0;
     box-sizing: border-box;
 
@@ -493,233 +519,251 @@ body{
     box-sizing: border-box;
     // background-color: red;
 }
-.port_forio_area{
-    // position: absolute;
-    width: 100%;
-    height: 1540px;
-}
 
-// .port_forio_1{
-//     width: 33%;
-//     height: 308px;
-//     display: inline-block;
-//     background-color : rgba(26, 25, 23, 1);
-//     z-index : 90;
-//     transition: 1.3s;
-// }
-.port_forio_title{
-    margin-top: 0;
-    margin-bottom: 0;
-    color: rgb(255, 255, 250);
-    text-align: center;
-    padding-top: 154px;
-    font-size: 14px;
-    box-sizing: border-box;
-}
-// .port_forio_title_2{
-//     display: none;
-//     color: rgb(0,0,0);
-// }
-
-.port_forio_link{
-    text-decoration: none;
-}
-// area1ここから
-.port_forio_area_1{
-    width: 100%;
-    height: 308px;
-    // background-color: pink;
-    text-align: center;
-}
-.port_forio_area_1_1{
-    width: 33.3%;
-    height: 308px;
-    background-color:  rgba(26, 25, 23, 1);
-    display: inline-block;
-    margin-left: -0.3%;
-}
-.port_forio_area_1_1:hover{
-    background-color:  rgba(0, 0, 3, 1);
-
-}
-.trigger{
+.no_1{
+    height: 300px;
+    background-color: rgb(0, 19, 33);
     transition: all  1.3s;
 }
-.port_forio_area_1_2{
-    width: 33.4%;
-    height: 308px;
-    background-color:  rgba(0, 0, 3, 1);
-    display: inline-block;
-    margin-left: -0.5%;
+.no_1:hover{
+    background-color: rgb(0, 3, 0);
+   
 }
-.port_forio_area_1_2:hover{
-    background-color: rgba(26, 25, 23, 1);
+.no_2{
+    height: 300px;
+    background-color: rgb(0, 3, 0);
+    transition: all  1.3s;
 }
-.port_forio_area_1_3{
-    width: 33.6%;
-    height: 308px;
-    background-color:  rgba(26, 25, 23, 1);
-    display: inline-block;
-    margin-left: -0.4%;
+.no_2:hover{
+    background-color: rgb(0, 19, 33);
 }
-.port_forio_area_1_3:hover{
-    background-color:  rgba(0, 0, 3, 1);
-}
-// area1ここまで
-// area２ここから
-.port_forio_area_2{
-    width: 100%;
-    height: 308px;
-    // background-color: green;
-}
-.port_forio_area_2_1{
-    width: 33.2%;
-    height: 308px;
-    background-color:  rgba(0, 0, 3, 1);
-    display: inline-block;
-    margin-left: -0.1%;
-}
-.port_forio_area_2_1:hover{
-    background-color:  rgba(26, 25, 23, 1);
-}
-.port_forio_area_2_2{
-    width: 33.3%;
-    height: 308px;
-    background-color:  rgba(26, 25, 23, 1);
-    display: inline-block;
-    margin-left: -0.5%;
-}
-.port_forio_area_2_2:hover{
-    background-color:  rgba(0, 0, 3, 1);
-}
-.port_forio_area_2_3{
-    width: 33.63%;
-    height: 308px;
-    background-color:  rgba(0, 0, 3, 1);
-    display: inline-block;
-    margin-left: -0.4%;
-}
-.port_forio_area_2_3:hover{
-    background-color:  rgba(26, 25, 23, 1);
-}
+// .port_forio_area{
+//     // position: absolute;
+//     width: 100%;
+//     height: 1540px;
+// }
 
-// area２ここまで
-// area3ここから
-.port_forio_area_3{
-    width: 100%;
-    height: 308px;
-    // background-color: blue;
-}
-.port_forio_area_3_1{
-    width: 33.2%;
-    height: 308px;
-    background-color:  rgba(26, 25, 23, 1);
-    display: inline-block;
-    margin-left: -0.1%;
-    margin-bottom: 0px;
-}
-.port_forio_area_3_1:hover{
-    background-color:  rgba(255, 255, 250, 1);
-}
+// // .port_forio_1{
+// //     width: 33%;
+// //     height: 308px;
+// //     display: inline-block;
+// //     background-color : rgba(26, 25, 23, 1);
+// //     z-index : 90;
+// //     transition: 1.3s;
+// // }
+// .port_forio_title{
+//     margin-top: 0;
+//     margin-bottom: 0;
+//     color: rgb(255, 255, 250);
+//     text-align: center;
+//     padding-top: 154px;
+//     font-size: 14px;
+//     box-sizing: border-box;
+// }
+// // .port_forio_title_2{
+// //     display: none;
+// //     color: rgb(0,0,0);
+// // }
 
-.port_forio_area_3_2{
-    width: 33.3%;
-    height: 308px;
-    background-color:  rgba(0, 0, 3, 1);
-    display: inline-block;
-    margin-left: -0.5%;
-}
-.port_forio_area_3_2:hover{
-    background-color:  rgba(255, 255, 250,1);
-}
+// .port_forio_link{
+//     text-decoration: none;
+// }
+// // area1ここから
+// .port_forio_area_1{
+//     width: 100%;
+//     height: 308px;
+//     // background-color: pink;
+//     text-align: center;
+// }
+// .port_forio_area_1_1{
+//     width: 33.3%;
+//     height: 308px;
+//     background-color:  rgba(26, 25, 23, 1);
+//     display: inline-block;
+//     margin-left: -0.3%;
+// }
+// .port_forio_area_1_1:hover{
+//     background-color:  rgba(0, 0, 3, 1);
 
-.port_forio_area_3_3{
-    width: 33.63%;
-    height: 308px;
-    background-color:  rgba(26, 25, 23, 1);
-    display: inline-block;
-    margin-left: -0.4%;
-}
-.port_forio_area_3_3:hover{
-    background-color:  rgba(255, 255, 250,1);
-}
-// area3ここまで
-// area4ここから
+// }
+// .trigger{
+//     transition: all  1.3s;
+// }
+// .port_forio_area_1_2{
+//     width: 33.4%;
+//     height: 308px;
+//     background-color:  rgba(0, 0, 3, 1);
+//     display: inline-block;
+//     margin-left: -0.5%;
+// }
+// .port_forio_area_1_2:hover{
+//     background-color: rgba(26, 25, 23, 1);
+// }
+// .port_forio_area_1_3{
+//     width: 33.6%;
+//     height: 308px;
+//     background-color:  rgba(26, 25, 23, 1);
+//     display: inline-block;
+//     margin-left: -0.4%;
+// }
+// .port_forio_area_1_3:hover{
+//     background-color:  rgba(0, 0, 3, 1);
+// }
+// // area1ここまで
+// // area２ここから
+// .port_forio_area_2{
+//     width: 100%;
+//     height: 308px;
+//     // background-color: green;
+// }
+// .port_forio_area_2_1{
+//     width: 33.2%;
+//     height: 308px;
+//     background-color:  rgba(0, 0, 3, 1);
+//     display: inline-block;
+//     margin-left: -0.1%;
+// }
+// .port_forio_area_2_1:hover{
+//     background-color:  rgba(26, 25, 23, 1);
+// }
+// .port_forio_area_2_2{
+//     width: 33.3%;
+//     height: 308px;
+//     background-color:  rgba(26, 25, 23, 1);
+//     display: inline-block;
+//     margin-left: -0.5%;
+// }
+// .port_forio_area_2_2:hover{
+//     background-color:  rgba(0, 0, 3, 1);
+// }
+// .port_forio_area_2_3{
+//     width: 33.63%;
+//     height: 308px;
+//     background-color:  rgba(0, 0, 3, 1);
+//     display: inline-block;
+//     margin-left: -0.4%;
+// }
+// .port_forio_area_2_3:hover{
+//     background-color:  rgba(26, 25, 23, 1);
+// }
 
-.port_forio_area_4{
-    width: 100%;
-    height: 308px;
-    // background-color: yellow;
-}
-.port_forio_area_4_1{
-    width: 33.2%;
-    height: 308px;
-    background-color:  rgba(0, 0, 3, 1);
-    display: inline-block;
-    margin-left: -0.1%;
+// // area２ここまで
+// // area3ここから
+// .port_forio_area_3{
+//     width: 100%;
+//     height: 308px;
+//     // background-color: blue;
+// }
+// .port_forio_area_3_1{
+//     width: 33.2%;
+//     height: 308px;
+//     background-color:  rgba(26, 25, 23, 1);
+//     display: inline-block;
+//     margin-left: -0.1%;
+//     margin-bottom: 0px;
+// }
+// .port_forio_area_3_1:hover{
+//     background-color:  rgba(255, 255, 250, 1);
+// }
 
-}
-.port_forio_area_4_1:hover{
-    background-color:  rgba(255,255,250,1);
-}
-.port_forio_area_4_2{
-    width: 33.3%;
-    height: 308px;
-    background-color:  rgba(26, 25, 23, 1);
-    display: inline-block;
-    margin-left: -0.5%;
-}
-.port_forio_area_4_2:hover{
-    background-color:  rgba(255,255,250,1);
-}
-.port_forio_area_4_3{
-    width: 33.63%;
-    height: 308px;
-    background-color:  rgba(0, 0, 3, 1);
-    display: inline-block;
-    margin-left: -0.4%;
-}
-.port_forio_area_4_3:hover{
-    background-color:  rgba(255,255,250,1);
-}
+// .port_forio_area_3_2{
+//     width: 33.3%;
+//     height: 308px;
+//     background-color:  rgba(0, 0, 3, 1);
+//     display: inline-block;
+//     margin-left: -0.5%;
+// }
+// .port_forio_area_3_2:hover{
+//     background-color:  rgba(255, 255, 250,1);
+// }
 
-// area4ここまで
-// area5ここから
-.port_forio_area_5{
-    width: 100%;
-    height: 308px;
-    // background-color: lightgreen;
-}
-.port_forio_area_5_1{
-    width: 33.2%;
-    height: 308px;
-    background-color:  rgba(26, 25, 23, 1);
-    display: inline-block;
-    margin-left: -0.1%;
-}
-.port_forio_area_5_1:hover{
-    background-color:  rgba(255,255,250,1);
-}
-.port_forio_area_5_2{
-    width: 33.3%;
-    height: 308px;
-    background-color:  rgba(0, 0, 3, 1);
-    display: inline-block;
-    margin-left: -0.5%;
-}
-.port_forio_area_5_2:hover{
-    background-color:  rgba(255,255,250,1);
-}
-.port_forio_area_5_3{
-    width: 33.63%;
-    height: 308px;
-    background-color:  rgba(26, 25, 23, 1);
-    display: inline-block;
-    margin-left: -0.4%;
-}
-.port_forio_area_5_3:hover{
-    background-color:  rgba(255,255,250,1);
-}
+// .port_forio_area_3_3{
+//     width: 33.63%;
+//     height: 308px;
+//     background-color:  rgba(26, 25, 23, 1);
+//     display: inline-block;
+//     margin-left: -0.4%;
+// }
+// .port_forio_area_3_3:hover{
+//     background-color:  rgba(255, 255, 250,1);
+// }
+// // area3ここまで
+// // area4ここから
+
+// .port_forio_area_4{
+//     width: 100%;
+//     height: 308px;
+//     // background-color: yellow;
+// }
+// .port_forio_area_4_1{
+//     width: 33.2%;
+//     height: 308px;
+//     background-color:  rgba(0, 0, 3, 1);
+//     display: inline-block;
+//     margin-left: -0.1%;
+
+// }
+// .port_forio_area_4_1:hover{
+//     background-color:  rgba(255,255,250,1);
+// }
+// .port_forio_area_4_2{
+//     width: 33.3%;
+//     height: 308px;
+//     background-color:  rgba(26, 25, 23, 1);
+//     display: inline-block;
+//     margin-left: -0.5%;
+// }
+// .port_forio_area_4_2:hover{
+//     background-color:  rgba(255,255,250,1);
+// }
+// .port_forio_area_4_3{
+//     width: 33.63%;
+//     height: 308px;
+//     background-color:  rgba(0, 0, 3, 1);
+//     display: inline-block;
+//     margin-left: -0.4%;
+// }
+// .port_forio_area_4_3:hover{
+//     background-color:  rgba(255,255,250,1);
+// }
+
+// // area4ここまで
+// // area5ここから
+// .port_forio_area_5{
+//     width: 100%;
+//     height: 308px;
+//     // background-color: lightgreen;
+// }
+// .port_forio_area_5_1{
+//     width: 33.2%;
+//     height: 308px;
+//     background-color:  rgba(26, 25, 23, 1);
+//     display: inline-block;
+//     margin-left: -0.1%;
+// }
+// .port_forio_area_5_1:hover{
+//     background-color:  rgba(255,255,250,1);
+// }
+// .port_forio_area_5_2{
+//     width: 33.3%;
+//     height: 308px;
+//     background-color:  rgba(0, 0, 3, 1);
+//     display: inline-block;
+//     margin-left: -0.5%;
+// }
+// .port_forio_area_5_2:hover{
+//     background-color:  rgba(255,255,250,1);
+// }
+// .port_forio_area_5_3{
+//     width: 33.63%;
+//     height: 308px;
+//     background-color:  rgba(26, 25, 23, 1);
+//     display: inline-block;
+//     margin-left: -0.4%;
+// }
+// .port_forio_area_5_3:hover{
+//     background-color:  rgba(255,255,250,1);
+// }
 
 // area5ここまで
 // poriforioここまで
@@ -738,14 +782,16 @@ body{
     top: 231px;
     text-align: center;
     font-size: 24px;
-    color: rgba(255, 255, 250,1);
+    color: rgba(250, 252, 255,1);
+    font-weight: bold;
 }
 .is_title_rooted{
     position: relative;
     top: 231px;
     text-align: center;
     font-size: 24px;
-    color:  rgba(0, 0, 3,1);
+    color:  rgba(0, 3, 0,1);
+    font-weight: bold;
 }
 .design_link{
     text-decoration: none;
@@ -763,16 +809,16 @@ body{
     background-size: cover;
     background-position: center;
     background-position: top 0px left 0;
-    transition: all 1.0s;
-
+    transition: all  1.3s;
 }
+
+
 .is_1:hover{
     background:image-url('picasocolor_23.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-position: top 0px left 0;
-    transition: 1.0s ;
 }
 
 .is_2{
@@ -789,15 +835,14 @@ body{
     background-position: right 35% bottom 45%;
     margin-top: 60px;
     margin-bottom: 60px;
-    transition: all 1.0s;
+    transition: all 1.3s;
 
 }
 .is_2:hover{
     background:image-url('jrcolor_24.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top 0px left 0;
-    transition: 1.0s ;
+    background-position: top 35% left 45%;
 }
 // .picaso_20{
 //     position: relative;
@@ -826,7 +871,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top 0px left 0;
-    transition: 1.0s ;
 }
 
 // designここまで
@@ -846,15 +890,17 @@ body{
     padding-top: 50px;
     padding-left: 10.2%;
     font-size : 24px;
+    font-weight: bold;
 }
 .url{
-    color: rgba(0, 0, 3,1);;
+    // color: rgba(0, 0, 3,1);;
 }
 .link{
     margin-bottom: 0;
     box-sizing: border-box;
     margin-left: 10.2%;
     font-size : 12px;
+    font-weight: bold;
 }
 
 .end{
@@ -866,3 +912,17 @@ body{
 }
 
 // footerここまで
+
+// .background {
+//   position: absolute;
+//   display: block;
+//   top: 0;
+//   left: 0;
+//   z-index: 0;
+// }
+
+/* Default Styling */
+// body {
+//   font-family: 'Merienda', cursive;
+//   background: #000;
+// }
